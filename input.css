@@ -3,3 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    .btn {
+        @apply bg-red-400 uppercase text-white p-4 hover:bg-green-600;
+    }
+}
